@@ -18,9 +18,11 @@ More features are being currently worked on.
 
 Download on the Google Play Store: [Store link (Coming soon)](https://play.google.com/store/apps/details?id=dev.kyno.cf)
 
-Download Android Apk: [Github release](https://github.com/ae1dev/Kyno/releases)
-
 Download iOS: Coming soon
+
+Download Android APK: [Github release](https://github.com/ae1dev/Kyno/releases)
+
+You can use [Obtainium](https://github.com/ImranR98/Obtainium) to get automatic updates for the Android Github releases.
 
 ## Join the Discord
 
