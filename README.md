@@ -10,7 +10,7 @@ Features:
 * Analytics: Track traffic, threats, bandwidth, and request trends in detail.*
 * Multiple Accounts Support: Switch between multiple Cloudflare accounts and zones effortlessly.*
 
-* Some features require Kyno Pro.*
+* Some features may require Kyno Pro.*
 
 More features are being currently worked on.
 
@@ -30,6 +30,6 @@ You can join the Discord here: [Invite link](https://discord.gg/xyPtKzjgWu)
 
 ## Get Kyno Pro
 
-You can get Pro on the Kyno website after logging in with your API token [Login](https://kyno.dev/login).
+You can get Pro on the Kyno website after logging in with your API token. [Login here](https://kyno.dev/login).
 
-All website requests are done client site, though they are routed though a Cloudflare Worker proxy ([Source code](https://github.com/ae1dev/kyno-proxy)).
+All website requests are done client-side, though they are routed through a Cloudflare Worker proxy ([Source code](https://github.com/ae1dev/kyno-proxy)).
