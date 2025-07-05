@@ -7,7 +7,7 @@ Whether you're managing a single blog or a fleet of high-traffic domains, Kyno g
 Features:
 
 * DNS Management: Easily view, edit, and update your DNS records on the go (supports: A, AAAA, CAA, CERT, CNAME, DNSKEY, HTTPS, MX, SRV, TXT, URI).
-* Analytics: Track traffic, threats, bandwidth, and request trends in detail.*
+* Analytics: Track traffic, threats, bandwidth, and request trends in detail.
 * Multiple Accounts Support: Switch between multiple Cloudflare accounts and zones effortlessly.*
 
 * Some features may require Kyno Pro.*
