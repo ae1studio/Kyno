@@ -16,11 +16,11 @@ More features are being currently worked on.
 
 ## Download the app
 
-Download on the Google Play Store: [Store link (Coming soon)](https://play.google.com/store/apps/details?id=dev.kyno.cf)
+Download on the Google Play Store: [Store link](https://play.google.com/store/apps/details?id=dev.kyno.cf)
 
-Download iOS: Coming soon
+Download iOS: [Store link](https://apps.apple.com/us/app/kyno-for-cloudflare/id6502572231)
 
-Download Android APK: [Github release](https://github.com/ae1dev/Kyno/releases)
+Download Android APK: [Github release](https://github.com/ae1studio/Kyno/releases)
 
 You can use [Obtainium](https://github.com/ImranR98/Obtainium) to get automatic updates for the Android Github releases.
 
