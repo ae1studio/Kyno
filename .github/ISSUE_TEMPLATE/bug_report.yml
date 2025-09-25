@@ -1,0 +1,105 @@
+name: 🐛 Bug Report
+description: Report a bug or issue with Kyno
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report! Please provide as much detail as possible to help us resolve the issue quickly.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Prerequisites
+      description: Please confirm the following before submitting your bug report
+      options:
+        - label: I have searched existing issues to make sure this bug hasn't been reported already
+          required: true
+        - label: I have updated to the latest version of Kyno available
+          required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: Which platform are you experiencing this issue on?
+      options:
+        - Android (Google Play Store)
+        - Android (GitHub APK)
+        - iOS (App Store)
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Kyno Version and Build number
+      description: What version (and build number) of Kyno are you using? You can find this in the app settings.
+      placeholder: "e.g., V1.3.0 (60)"
+    validations:
+      required: true
+
+  - type: input
+    id: device
+    attributes:
+      label: Device Information
+      description: What device and OS version are you using?
+      placeholder: "e.g., iPhone 14 Pro (iOS 17.1) or Samsung Galaxy S23 (Android 14)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: account_type
+    attributes:
+      label: Account Type
+      description: Are you using Kyno Free or Kyno Pro?
+      options:
+        - Kyno Free
+        - Kyno Pro
+      default: 0
+    validations:
+      required: true
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: Bug Description
+      description: A clear and concise description of what the bug is
+      placeholder: "Describe the issue you're experiencing..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps_to_reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: |
+        1. Go to '...'
+        2. Tap on '...'
+        3. Enter '...'
+        4. See error
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the problem here, such as error messages, logs, or specific Cloudflare zones affected
+      placeholder: "Any additional information that might help us understand the issue better"
+
+  - type: checkboxes
+    id: troubleshooting
+    attributes:
+      label: Troubleshooting Steps Attempted
+      description: Have you tried any of the following troubleshooting steps?
+      options:
+        - label: Restarted the app
+        - label: Cleared app cache/data (Android)
+        - label: Reinstalled the app
+        - label: Tried on a different network
+        - label: Verified Cloudflare API token permissions

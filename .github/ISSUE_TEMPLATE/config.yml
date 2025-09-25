@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discord Community
+    url: https://discord.gg/xyPtKzjgWu
+    about: Join our Discord server for general questions, discussions, and community support
+  - name: 🌐 Kyno Website
+    url: https://kyno.dev
+    about: Visit the official Kyno website for Pro subscriptions status
+  - name: 📱 Google Play Store
+    url: https://play.google.com/store/apps/details?id=dev.kyno.cf
+    about: Download Kyno from the Google Play Store and leave reviews
+  - name: 🍎 App Store
+    url: https://apps.apple.com/us/app/kyno-for-cloudflare/id6502572231
+    about: Download Kyno from the iOS App Store and leave reviews
