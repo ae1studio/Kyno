@@ -8,7 +8,10 @@ Features:
 
 * DNS Management: Easily view, edit, and update your DNS records on the go (supports: A, AAAA, CAA, CERT, CNAME, DNSKEY, HTTPS, MX, SRV, TXT, URI).
 * Analytics: Track traffic, threats, bandwidth, and request trends in detail.
+* Cloudflare Pages: Manage deployments, view build logs, and monitor site status directly from your device.
+* System Status: Stay informed with real-time updates on Cloudflare’s service status and outage reports.
 * Multiple Accounts Support: Switch between multiple Cloudflare accounts and zones effortlessly.*
+* Home Screen widgets (iOS only Currently)
 
 * Some features may require Kyno Pro.*
 
@@ -32,4 +35,8 @@ You can join the Discord here: [Invite link](https://discord.gg/xyPtKzjgWu)
 
 You can get Pro on the Kyno website after logging in with your API token. [Login here](https://kyno.dev/login).
 
-All website requests are done client-side, though they are routed through a Cloudflare Worker proxy ([Source code](https://github.com/ae1dev/kyno-proxy)).
+## Open Source parts
+
+All website requests are done client-side, though they are routed through a Cloudflare Worker proxy ([Source code](https://github.com/ae1studio/kyno-proxy)).
+
+The mobile app uses `cloudflare_sdk`, a Cloudflare API package for Dart/Flutter ([Source code](https://github.com/ae1studio/cloudflare_dart)).
